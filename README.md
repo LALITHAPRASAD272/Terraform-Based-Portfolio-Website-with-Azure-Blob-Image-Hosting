@@ -70,3 +70,29 @@ terraform init
 terraform validate
 terraform plan
 terraform apply
+
+---
+
+Output & Verification
+
+- The portfolio website is accessed using the public IP address of the Azure VM
+- The profile image stored in Azure Blob Storage is successfully rendered on the website
+- This confirms correct Terraform-based provisioning and integration
+
+---
+
+Key Highlights
+
+- Fully automated Azure infrastructure using Terraform
+- Image upload handled entirely via Terraform code
+- No manual Azure Portal configuration
+- Real-world DevOps Infrastructure as Code implementation
+- Scalable and reusable Terraform modules
+
+---
+
+Conclusion
+
+- This project demonstrates a real-world DevOps workflow using Terraform to manage both compute and storage resources in Azure.
+- It highlights best practices in Infrastructure as Code, backend state management, and automation by completely eliminating manual intervention.
+
